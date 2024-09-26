@@ -1,0 +1,66 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Capsule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="branch-selection">
+        <div class="container">
+            <h1 class="heading">Select Your Branch</h1>
+            <button id="btech-cse" class="btn">B.Tech CSE</button>
+        </div>
+    </div>
+    <div class="subject-selection" style="display: none;">
+        <div class="container">
+            <h1 class="heading">Select Your Subject</h1>
+            <button id="applied-physics" class="btn">Applied Physics</button>
+            <button id="applied-mathematics" class="btn">Applied Mathematics</button>
+            <button id="applied-chemistry" class="btn">Applied Chemistry</button>
+            <button id="manufacturing" class="btn">Manufacturing</button>
+            <button id="electrical-science" class="btn">Electrical Science</button>
+        </div>
+    </div>
+    <div class="content" style="display: none;">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#notes" class="nav-link">Notes</a></li>
+                    <li><a href="#practical" class="nav-link">Practical</a></li>
+                    <li><a href="#file-upload" class="nav-link">File Upload</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="notes" class="section">
+                <h2 class="section-heading">Notes</h2>
+                <ul>
+                    <li><a href="#" class="link">Note 1</a></li>
+                    <li><a href="#" class="link">Note 2</a></li>
+                    <li><a href="#" class="link">Note 3</a></li>
+                </ul>
+            </section>
+            <section id="practical" class="section">
+                <h2 class="section-heading">Practical</h2>
+                <ul>
+                    <li><a href="#" class="link">Practical 1</a></li>
+                    <li><a href="#" class="link">Practical 2</a></li>
+                    <li><a href="#" class="link">Practical 3</a></li>
+                </ul>
+            </section>
+            <section id="file-upload" class="section">
+                <h2 class="section-heading">File Upload</h2>
+                <form>
+                    <input type="file" id="file" name="file" class="file-input">
+                    <button class="btn">Upload File</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
